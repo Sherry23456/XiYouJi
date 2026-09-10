@@ -39,17 +39,16 @@ Shader "Unlit/VolumeRender"
                 float2 uv : TEXCOORD0;
             };
 
-            struct v2f
-            {
-                float2 uv : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
-                float4 vertex : SV_POSITION;
-                float4 texcoord1 : TEXCOORD1;
-                float3 worldPos : TEXCOORD2;
-                UNITY_VERTEX_INPUT_INSTANCE_ID
-                UNITY_VERTEX_OUTPUT_STEREO
-            };
-
+        struct v2f
+{
+    float2 uv : TEXCOORD0;
+    UNITY_FOG_COORDS(1)                  // 占用 TEXCOORD1
+    float4 vertex : SV_POSITION;
+    float4 texcoord1 : TEXCOORD3;        // ← 从 TEXCOORD1 改为 TEXCOORD3
+    float3 worldPos : TEXCOORD2;
+    UNITY_VERTEX_INPUT_INSTANCE_ID
+    UNITY_VERTEX_OUTPUT_STEREO
+};
             sampler2D _densityRT;
             sampler3D _noise3D;
             float4 _densityRT_ST;

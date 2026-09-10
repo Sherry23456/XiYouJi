@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/GameContent/01_Scenes/Start.unity
+    guid: 66ccf663baba2da4da4fd55605f01663
+  - enabled: 1
+    path: Assets/GameContent/01_Scenes/peach.unity
+    guid: 28330e2df3e3c36408c397af9e42c9c9
+  - enabled: 1
     path: Assets/GameContent/01_Scenes/cave.unity
     guid: ef88f6f82bb966e498f953e9da590bcc
   - enabled: 1
@@ -16,14 +22,8 @@ EditorBuildSettings:
     guid: 1d07e9f31ad23e049b902e3440ff8349
   - enabled: 1
     path: Assets/GameContent/01_Scenes/cloud.unity
-    guid: 2afde9c5df8bfa04393e4ff9468abd26
+    guid: be1ea316c539ddb479e87c6523cb9e14
   - enabled: 1
     path: Assets/GameContent/01_Scenes/tool/talksysteam.unity
     guid: 56257d99f3076834a92d5ae6285a1ee1
-  - enabled: 1
-    path: Assets/GameContent/01_Scenes/peach.unity
-    guid: 28330e2df3e3c36408c397af9e42c9c9
-  - enabled: 1
-    path: Assets/GameContent/01_Scenes/Start.unity
-    guid: 66ccf663baba2da4da4fd55605f01663
   m_configObjects: {}
