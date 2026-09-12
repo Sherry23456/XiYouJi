@@ -75,6 +75,12 @@ public class DialogueUIController : MonoBehaviour
 
     }
 
+    // 对话面板是否打开（供外部判断“对话进行中”，避免重复触发）
+    public bool IsPanelOpen
+    {
+        get { return dialoguePanelRoot != null && dialoguePanelRoot.activeSelf; }
+    }
+
     // 显示当前对话（追加到信息流）
     public void ShowCurrentDialogue()
     {

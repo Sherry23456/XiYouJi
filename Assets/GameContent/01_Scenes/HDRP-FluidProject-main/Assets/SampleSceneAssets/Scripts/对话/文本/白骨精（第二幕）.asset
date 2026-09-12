@@ -10,284 +10,344 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 934c1ef0cd8351447bfb2eeb8c16fb23, type: 3}
-  m_Name: "白骨精（第二幕）"
+  m_Name: "\u767D\u9AA8\u7CBE\uFF08\u7B2C\u4E8C\u5E55\uFF09"
   m_EditorClassIdentifier: 
   dialoguePieces:
-  - speaker: "白骨精"
-    content: "【真是造化，孙悟空飞走了，今个儿可算是能吃到唐僧肉了】"
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u554A\uFF01"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "【我且幻化成小姑娘耍他们一耍】"
-    portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "啊！"
-    portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-  - speaker: "沙和尚"
-    content: "妖怪。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u6C99\u548C\u5C1A"
+    content: "\u5996\u602A\u3002"
     portrait: {fileID: 21300000, guid: 76fa2d23a0fcbac4aa8e25cb6bdf937e, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "妖怪，妖怪。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u5996\u602A\uFF0C\u5996\u602A\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "女施主莫害怕，我这徒弟虽然相貌丑陋，却是好人。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u5973\u65BD\u4E3B\u83AB\u5BB3\u6015\uFF0C\u6211\u8FD9\u5F92\u5F1F\u867D\u7136\u76F8\u8C8C\u4E11\u964B\uFF0C\u5374\u662F\u597D\u4EBA\u3002"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "长老，小女子见礼了。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u957F\u8001\uFF0C\u5C0F\u5973\u5B50\u89C1\u793C\u4E86\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "猪八戒"
-    content: "啊？馒头。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u732A\u516B\u6212"
+    content: "\u554A\uFF1F\u9992\u5934\u3002"
     portrait: {fileID: 21300000, guid: 36da1736cc7ee1a40ad30007c40c236f, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "沙和尚"
-    content: "二师兄。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u6C99\u548C\u5C1A"
+    content: "\u4E8C\u5E08\u5144\u3002"
     portrait: {fileID: 21300000, guid: 76fa2d23a0fcbac4aa8e25cb6bdf937e, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "这位师父想是饿得紧了，那就请吃一个吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u8FD9\u4F4D\u5E08\u7236\u60F3\u662F\u997F\u5F97\u7D27\u4E86\uFF0C\u90A3\u5C31\u8BF7\u5403\u4E00\u4E2A\u5427\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "沙和尚"
-    content: "师兄，来。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u6C99\u548C\u5C1A"
+    content: "\u5E08\u5144\uFF0C\u6765\u3002"
     portrait: {fileID: 21300000, guid: 76fa2d23a0fcbac4aa8e25cb6bdf937e, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "猪八戒"
-    content: "师父。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u732A\u516B\u6212"
+    content: "\u5E08\u7236\u3002"
     portrait: {fileID: 21300000, guid: 36da1736cc7ee1a40ad30007c40c236f, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "女施主，这荒山野岭只有我师徒几人和你一个妇道人家多有不便，"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u5973\u65BD\u4E3B\uFF0C\u8FD9\u8352\u5C71\u91CE\u5CAD\u53EA\u6709\u6211\u5E08\u5F92\u51E0\u4EBA\u548C\u4F60\u4E00\u4E2A\u5987\u9053\u4EBA\u5BB6\u591A\u6709\u4E0D\u4FBF\uFF0C"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "请上路吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u8BF7\u4E0A\u8DEF\u5427\u3002"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "长老说话有差，此山叫白虎岭，"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u957F\u8001\u8BF4\u8BDD\u6709\u5DEE\uFF0C\u6B64\u5C71\u53EB\u767D\u864E\u5CAD\uFF0C"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "山前山后都有人家，怎么叫荒山野岭呢。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u5C71\u524D\u5C71\u540E\u90FD\u6709\u4EBA\u5BB6\uFF0C\u600E\u4E48\u53EB\u8352\u5C71\u91CE\u5CAD\u5462\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "沙和尚"
-    content: "师父，大师兄明讲这一代杳无人烟，可是这女子。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u6C99\u548C\u5C1A"
+    content: "\u5E08\u7236\uFF0C\u5927\u5E08\u5144\u660E\u8BB2\u8FD9\u4E00\u4EE3\u6773\u65E0\u4EBA\u70DF\uFF0C\u53EF\u662F\u8FD9\u5973\u5B50\u3002"
     portrait: {fileID: 21300000, guid: 76fa2d23a0fcbac4aa8e25cb6bdf937e, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "女施主，你怎么独自一人在山间行走？"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u5973\u65BD\u4E3B\uFF0C\u4F60\u600E\u4E48\u72EC\u81EA\u4E00\u4EBA\u5728\u5C71\u95F4\u884C\u8D70\uFF1F"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "长老，小女子家住在北山岭下，只因父母年老多病无人使唤，"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u957F\u8001\uFF0C\u5C0F\u5973\u5B50\u5BB6\u4F4F\u5728\u5317\u5C71\u5CAD\u4E0B\uFF0C\u53EA\u56E0\u7236\u6BCD\u5E74\u8001\u591A\u75C5\u65E0\u4EBA\u4F7F\u5524\uFF0C"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "我这才独自行走，前去给我丈夫送饭。既是师父饿了，那就请吃一个吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u6211\u8FD9\u624D\u72EC\u81EA\u884C\u8D70\uFF0C\u524D\u53BB\u7ED9\u6211\u4E08\u592B\u9001\u996D\u3002\u65E2\u662F\u5E08\u7236\u997F\u4E86\uFF0C\u90A3\u5C31\u8BF7\u5403\u4E00\u4E2A\u5427\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "猪八戒"
-    content: "师父……"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u732A\u516B\u6212"
+    content: "\u5E08\u7236\u2026\u2026"
     portrait: {fileID: 21300000, guid: 36da1736cc7ee1a40ad30007c40c236f, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "善哉，只是你这饭要是被我们吃了，"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u5584\u54C9\uFF0C\u53EA\u662F\u4F60\u8FD9\u996D\u8981\u662F\u88AB\u6211\u4EEC\u5403\u4E86\uFF0C"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "你丈夫晓得了骂你，这不是贫僧的罪过了？"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u4F60\u4E08\u592B\u6653\u5F97\u4E86\u9A82\u4F60\uFF0C\u8FD9\u4E0D\u662F\u8D2B\u50E7\u7684\u7F6A\u8FC7\u4E86\uFF1F"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "长老啊，我丈夫更是个善人，"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u957F\u8001\u554A\uFF0C\u6211\u4E08\u592B\u66F4\u662F\u4E2A\u5584\u4EBA\uFF0C"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "一生好的是修桥补路，爱老怜贫。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u4E00\u751F\u597D\u7684\u662F\u4FEE\u6865\u8865\u8DEF\uFF0C\u7231\u8001\u601C\u8D2B\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "他要是听见说这饭送与师父吃了，更是情愿呢。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u4ED6\u8981\u662F\u542C\u89C1\u8BF4\u8FD9\u996D\u9001\u4E0E\u5E08\u7236\u5403\u4E86\uFF0C\u66F4\u662F\u60C5\u613F\u5462\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "猪八戒"
-    content: "师父你看，这……"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u732A\u516B\u6212"
+    content: "\u5E08\u7236\u4F60\u770B\uFF0C\u8FD9\u2026\u2026"
     portrait: {fileID: 21300000, guid: 36da1736cc7ee1a40ad30007c40c236f, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "只是我那大徒弟已经去摘果子去了。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u53EA\u662F\u6211\u90A3\u5927\u5F92\u5F1F\u5DF2\u7ECF\u53BB\u6458\u679C\u5B50\u53BB\u4E86\u3002"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "长老，你既不要小女子的食物，那就请到我家里去吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u957F\u8001\uFF0C\u4F60\u65E2\u4E0D\u8981\u5C0F\u5973\u5B50\u7684\u98DF\u7269\uFF0C\u90A3\u5C31\u8BF7\u5230\u6211\u5BB6\u91CC\u53BB\u5427\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "我父母乐善好施，广斋僧人，若见师父去了，必定准备斋饭，款待长老。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u6211\u7236\u6BCD\u4E50\u5584\u597D\u65BD\uFF0C\u5E7F\u658B\u50E7\u4EBA\uFF0C\u82E5\u89C1\u5E08\u7236\u53BB\u4E86\uFF0C\u5FC5\u5B9A\u51C6\u5907\u658B\u996D\uFF0C\u6B3E\u5F85\u957F\u8001\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "长老，你就随我同去吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u957F\u8001\uFF0C\u4F60\u5C31\u968F\u6211\u540C\u53BB\u5427\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "这"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u8FD9"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "长老！你若不去，我父母知道了，"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u957F\u8001\uFF01\u4F60\u82E5\u4E0D\u53BB\uFF0C\u6211\u7236\u6BCD\u77E5\u9053\u4E86\uFF0C"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "白骨精"
-    content: "那他们一定会责怪我对长老您不够诚信。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u767D\u9AA8\u7CBE"
+    content: "\u90A3\u4ED6\u4EEC\u4E00\u5B9A\u4F1A\u8D23\u602A\u6211\u5BF9\u957F\u8001\u60A8\u4E0D\u591F\u8BDA\u4FE1\u3002"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "猪八戒"
-    content: "那好，师父，咱们快走吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u732A\u516B\u6212"
+    content: "\u90A3\u597D\uFF0C\u5E08\u7236\uFF0C\u54B1\u4EEC\u5FEB\u8D70\u5427\u3002"
     portrait: {fileID: 21300000, guid: 36da1736cc7ee1a40ad30007c40c236f, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "沙和尚"
-    content: "师父，还是等等大师兄回来吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u6C99\u548C\u5C1A"
+    content: "\u5E08\u7236\uFF0C\u8FD8\u662F\u7B49\u7B49\u5927\u5E08\u5144\u56DE\u6765\u5427\u3002"
     portrait: {fileID: 21300000, guid: 76fa2d23a0fcbac4aa8e25cb6bdf937e, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "猪八戒"
-    content: "去你的，大师兄半天不回来，师父都快饿昏了。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u732A\u516B\u6212"
+    content: "\u53BB\u4F60\u7684\uFF0C\u5927\u5E08\u5144\u534A\u5929\u4E0D\u56DE\u6765\uFF0C\u5E08\u7236\u90FD\u5FEB\u997F\u660F\u4E86\u3002"
     portrait: {fileID: 21300000, guid: 36da1736cc7ee1a40ad30007c40c236f, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "沙和尚"
-    content: "唉，二师兄。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u6C99\u548C\u5C1A"
+    content: "\u5509\uFF0C\u4E8C\u5E08\u5144\u3002"
     portrait: {fileID: 21300000, guid: 76fa2d23a0fcbac4aa8e25cb6bdf937e, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
     broadcastEventKey: 
-  - speaker: "唐僧"
-    content: "也好，那就去吧。"
+    broadcastOnFinish: 0
+    finishEventKey: 
+  - speaker: "\u5510\u50E7"
+    content: "\u4E5F\u597D\uFF0C\u90A3\u5C31\u53BB\u5427\u3002"
     portrait: {fileID: 21300000, guid: 5d5bb8269da12674893ec26e0f33d2ed, type: 3}
     nextIndex: 0
     choices:
-    - choiceText: "结束对话"
+    - choiceText: "\u7ED3\u675F\u5BF9\u8BDD"
       targetIndex: -1
       broadcastEvent: 0
     broadcastOnShow: 0
     broadcastEventKey: 
+    broadcastOnFinish: 0
+    finishEventKey: 
   title: 
   author: 

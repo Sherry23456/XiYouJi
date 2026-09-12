@@ -11,7 +11,7 @@ namespace XiYouJi.Gameplay
         [Tooltip("留空时使用地图上带 MainCamera 标签的相机。")]
         public Camera sceneCamera;
         public bool bindOnEnable = true;
-        [Tooltip("仅在相机没有原跟随目标时使用。")]
+        [Tooltip("为兼容旧预制体保留；绑定时会优先保留场景中已经摆好的相机位姿。")]
         public Vector3 fallbackOffset = new Vector3(-20f, 14f, 0f);
 
         private PointClickNavController movement;
@@ -51,11 +51,11 @@ namespace XiYouJi.Gameplay
             previousFollowEnabled = follow.enabled;
             previousOffset = previousTarget != null
                 ? sceneCamera.transform.position - previousTarget.position
-                : fallbackOffset;
-            if (previousTarget != transform)
-                sceneCamera.transform.position = transform.position + previousOffset;
-            if (previousTarget == null)
-                sceneCamera.transform.LookAt(transform.position + Vector3.up * 2f);
+                : Vector3.zero;
+
+            // Keep the camera pose authored in the scene. Configure captures a new
+            // target-relative offset from the current pose, so binding a playable
+            // character never teleports or rotates the camera on the first frame.
             follow.Configure(transform, follow.movementBounds);
             follow.enabled = true;
             occlusion = sceneCamera.GetComponent<CameraOcclusionCuller>();
