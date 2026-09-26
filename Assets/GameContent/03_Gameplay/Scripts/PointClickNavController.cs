@@ -34,10 +34,15 @@ namespace XiYouJi.Gameplay
         [Min(0.1f)]
         public float rotationSharpness = 14f;
 
+        [Header("Dialogue")]
+        [Tooltip("对话进行中禁止点击移动：对话开始立即停住并定格走路动画，对话结束恢复")]
+        public bool blockMovementDuringDialogue = true;
+
         private NavMeshAgent agent;
         private bool warnedAboutMissingNavMesh;
         private bool hasLastAllowedPosition;
         private Vector3 lastAllowedPosition;
+        private bool movementLockedByDialogue;
 
         public NavMeshAgent Agent => agent;
         public Vector3 LastDestination { get; private set; }
@@ -53,6 +58,18 @@ namespace XiYouJi.Gameplay
             }
         }
 
+        private void OnEnable()
+        {
+            DialogueController.OnDialogueStart += HandleDialogueStart;
+            DialogueUIController.OnDialogueEnd += HandleDialogueEnd;
+        }
+
+        private void OnDisable()
+        {
+            DialogueController.OnDialogueStart -= HandleDialogueStart;
+            DialogueUIController.OnDialogueEnd -= HandleDialogueEnd;
+        }
+
         private void Start()
         {
             if (EnsureAgentIsOnNavMesh())
@@ -60,7 +77,7 @@ namespace XiYouJi.Gameplay
                 RememberAllowedPosition();
             }
         }
-    
+
         private void Update()
         {
             if (inputCamera == null)
@@ -68,13 +85,68 @@ namespace XiYouJi.Gameplay
                 inputCamera = Camera.main;
             }
 
-            if (Input.GetMouseButtonDown(0) && !IsPointerOverUi())
+            if (Input.GetMouseButtonDown(0) && !IsPointerOverUi() && !IsMovementBlockedByDialogue())
             {
                 TryMoveToScreen(Input.mousePosition);
             }
 
             UpdateFacingDirection();
             EnforceWalkableArea();
+        }
+
+        private void HandleDialogueStart()
+        {
+            movementLockedByDialogue = true;
+            StopAgentImmediately();
+        }
+
+        private void HandleDialogueEnd()
+        {
+            movementLockedByDialogue = false;
+            ResumeAgentAfterDialogue();
+        }
+
+        private bool IsMovementBlockedByDialogue()
+        {
+            if (!blockMovementDuringDialogue)
+            {
+                return false;
+            }
+
+            if (movementLockedByDialogue)
+            {
+                return true;
+            }
+
+            // 兜底：事件订阅前面板已打开（如按钮开对话）时也按对话进行中处理
+            return DialogueUIController.Instance != null && DialogueUIController.Instance.IsPanelOpen;
+        }
+
+        private void StopAgentImmediately()
+        {
+            if (agent == null)
+            {
+                agent = GetComponent<NavMeshAgent>();
+            }
+
+            if (agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh)
+            {
+                return;
+            }
+
+            agent.ResetPath();
+            agent.velocity = Vector3.zero;
+            agent.isStopped = true;
+        }
+
+        private void ResumeAgentAfterDialogue()
+        {
+            if (agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh)
+            {
+                return;
+            }
+
+            agent.isStopped = false;
         }
 
         public bool TryMoveToScreen(Vector2 screenPosition)
@@ -111,6 +183,11 @@ namespace XiYouJi.Gameplay
 
         public bool TryMoveToWorld(Vector3 worldPosition)
         {
+            if (IsMovementBlockedByDialogue())
+            {
+                return false;
+            }
+
             ResolveWalkableArea();
             if (!EnsureAgentIsOnNavMesh())
             {

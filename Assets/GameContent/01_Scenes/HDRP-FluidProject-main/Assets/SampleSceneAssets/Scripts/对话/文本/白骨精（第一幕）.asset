@@ -99,103 +99,13 @@ MonoBehaviour:
     portrait: {fileID: 21300000, guid: 7bd1796ae5ba8b74cb76211631326bb4, type: 3}
     nextIndex: 0
     choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
+    broadcastOnShow: 1
+    broadcastEventKey: "\u767D\u9AA8\u7CBE\u52A8\u753B1"
     broadcastOnFinish: 0
     finishEventKey: 
   - speaker: "\u767D\u9AA8\u7CBE"
     content: "\u55EF\uFF1F"
     portrait: {fileID: 21300000, guid: b7f63495ebad86842a5e7da0cd1d071c, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u5973\u513F"
-    content: "\u5A18\uFF0C\u5A18\uFF0C\u7239\uFF0C\u7239\u3002"
-    portrait: {fileID: 21300000, guid: 6f3a03287529aa34a9bdc8a7b15fb68f, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u6BCD\u4EB2"
-    content: "\u5973\u513F\u3002"
-    portrait: {fileID: 21300000, guid: 0e8e081b86ac89f46be5b7a600c68699, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u5973\u513F"
-    content: "\u5A18\uFF0C\u5A18\uFF0C\u7239\uFF0C\u6211\u6015\u3002"
-    portrait: {fileID: 21300000, guid: 6f3a03287529aa34a9bdc8a7b15fb68f, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u7236\u4EB2\u3001\u6BCD\u4EB2"
-    content: "\u5973\u513F\u3002"
-    portrait: {fileID: 21300000, guid: 3ccf1d130ed29894caa3f044e3ad1cc1, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u5973\u513F"
-    content: "\u6211\u6015\uFF0C\u7239\u3002"
-    portrait: {fileID: 21300000, guid: 6f3a03287529aa34a9bdc8a7b15fb68f, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u6BCD\u4EB2"
-    content: "\u592B\u4EBA\uFF0C\u4F60\u53D1\u53D1\u6148\u60B2\u5427\u3002"
-    portrait: {fileID: 21300000, guid: 0e8e081b86ac89f46be5b7a600c68699, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u7236\u4EB2"
-    content: "\u5B69\u5B50\u5979\u5A18\u3002"
-    portrait: {fileID: 21300000, guid: 3ccf1d130ed29894caa3f044e3ad1cc1, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u5973\u513F"
-    content: "\u5A18\uFF01"
-    portrait: {fileID: 21300000, guid: 6f3a03287529aa34a9bdc8a7b15fb68f, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u7236\u4EB2"
-    content: "\u554A\uFF1F\u5973\u513F\uFF01"
-    portrait: {fileID: 21300000, guid: 3ccf1d130ed29894caa3f044e3ad1cc1, type: 3}
-    nextIndex: 0
-    choices: []
-    broadcastOnShow: 0
-    broadcastEventKey: 
-    broadcastOnFinish: 0
-    finishEventKey: 
-  - speaker: "\u5973\u513F"
-    content: "\u554A\uFF01"
-    portrait: {fileID: 21300000, guid: 6f3a03287529aa34a9bdc8a7b15fb68f, type: 3}
     nextIndex: 0
     choices: []
     broadcastOnShow: 0
